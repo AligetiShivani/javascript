@@ -1,0 +1,90 @@
+.primary
+{
+    background-color: rgb(92, 174, 252);
+    color:white;
+    padding: 10px;
+    border: 1px solid rgb(92, 174, 252);
+    border-radius: 4px;
+    margin:10px 400px 10px 0px;
+}
+.danger
+{
+    background-color:red;
+    color:white;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 4px;
+    margin:10px 0px 10px 0px;
+}
+#container-1
+{
+    border: 1px solid black;
+    margin: 50px 200px;
+    text-align: center;
+}
+.buttons
+{
+    border: 1px solid black;
+    text-align:center;
+}
+#result
+{
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid black;
+    height: 50px;
+}
+#container-2
+{
+    border: 1px solid black;
+    margin: 50px 200px;
+    text-align: center;
+}
+.green
+{
+    background-color:rgb(19, 184, 19);
+    color:white;
+    padding: 10px;
+    border: 1px solid rgb(19, 184, 19);
+    border-radius: 4px;
+    margin: 10px; 
+}
+#flexbox
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px 30px;
+    border: 1px solid black;
+
+}
+#flexbox img
+{
+    padding: 10px;
+    border: 1px solid transparent;
+}
+#container-3
+{
+    border: 1px solid black;
+    margin: 50px 200px;
+    text-align: center;
+}
+#flexbox-1
+{
+    border: 1px solid black;
+    display: flex;
+    align-items:center;
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+#flexbox-1 img
+{
+    height: 200px;
+    width:200px;
+}
+#flexbox-1 img:hover
+{
+    box-shadow: 2px 2px 50px black;
+}
